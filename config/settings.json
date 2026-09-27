@@ -1,0 +1,31 @@
+{
+  "compiler": {
+    "command": "g++",
+    "standard": "c++17",
+    "optimization": "-O2"
+  },
+  "execution": {
+    "runs": 10,
+    "timeout_seconds": 60
+  },
+  "statistics": {
+    "use_sample_sd": true
+  },
+    "paths": {
+    "submissions": "submissions",
+    "build_sources": "build_sources",
+    "input_data": "input_data",
+    "build": "build",
+    "runtime": "runtime",
+    "results": "results"
+    },
+  "submission": {
+    "source_dir": "lab-competition-2026"
+  },
+  "input_files": [
+    "edges.csv",
+    "landmarks.csv",
+    "nodes.csv",
+    "seimon.csv"
+  ]
+}
